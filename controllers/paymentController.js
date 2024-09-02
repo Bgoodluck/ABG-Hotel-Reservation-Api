@@ -3,7 +3,7 @@ const axios = require('axios');
 
 
 const FLW_SECRET_KEY = process.env.FLW_SECRET_KEY;
-const FRONTEND_URL = process.env.FRONTEND_URL;
+const FRONTEND_URL = "https://abg-hotel-reservation.vercel.app";
 
 exports.createPayment = async (req, res) => {
   try {
