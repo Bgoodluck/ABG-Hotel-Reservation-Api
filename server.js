@@ -18,9 +18,7 @@ const path = require("path")
 connectDB();
 
 
-// mongoose.connect(db.mongoURI)
-// .then(()=> console.log("MongoDB connection successful"))
-// .catch(error=> console.error("mongodb connection error",error))
+
 
 
 const app = express()
